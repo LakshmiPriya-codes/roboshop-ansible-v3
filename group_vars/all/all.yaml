@@ -2,8 +2,9 @@ MONGODB_HOST: mongodb-{{ env }}.lpdaws.online
 REDIS_HOST: redis-{{ env }}.lpdaws.online
 MYSQL_HOST: mysql-{{ env }}.lpdaws.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.lpdaws.online
-CATALOGUE_HOST: catalogue-{{ env }}.lpdaws.online 
-USER_HOST: user-{{ env }}.lpdaws.online
-CART_HOST: cart-{{ env }}.lpdaws.online
-SHIPPING_HOST: shipping-{{ env }}.lpdaws.online
-PAYMENT_HOST: payment-{{ env }}.lpdaws.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.lpdaws.online 
+USER_HOST: user.backend-alb-{{ env }}.lpdaws.online
+CART_HOST: cart.backend-alb-{{ env }}.lpdaws.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.lpdaws.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.lpdaws.online
+
